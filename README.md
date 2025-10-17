@@ -92,6 +92,10 @@ The assistant calls the `write_mock_data` tool, which makes a `POST` request to 
 
 This workflow allows you to manage the entire mock server without writing JSON or `curl` commands manually.
 
+![Example 1](./docs/images/server-startup-1.png)
+![Example 2](./docs/images/server-startup-2.png)
+![Example 3](./docs/images/server-startup-3.png)
+
 ## How to Add/Update Mock Endpoints
 
 This server is file-based. You can add or update endpoints by creating or modifying `.json` files in the `mocks` directory. The folder structure inside `mocks` must match the desired API path.
