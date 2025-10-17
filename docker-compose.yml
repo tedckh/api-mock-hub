@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  mcp-mock-hub:
+    build: .
+    container_name: mcp-mock-hub
+    ports:
+      - "3037:3037"
